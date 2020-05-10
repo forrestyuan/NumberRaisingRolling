@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div style="border-radius:30px;color:deepskyblue;background-color: rgba(0, 0, 0, 0.7); text-align: center;width: 400px;margin:0 auto;border:solid 1px #ccc;box-shadow: 0 0 50px 1px #000;">
+    <h1 style="background-color:burlywood;color:dimgrey;padding:20px;margin:20px 0 0 0">NRR-Demo</h1>
+    <hr>
+    <h1 id="noHd1"></h1>
+    <hr>
+    <h1 id="noHd2"></h1>
+    <hr>
+    <h1 id="noHd3"></h1>
+    <hr>
+    <h1 id="noHd4"></h1>
+    <hr>
+    <h1 id="noHd5"></h1>
+    <hr>
+    <h1 id="noHd6"></h1>
+  </div>
+  <script src="NumberRaiseRolling.js"></script>
+  <script>
+     var configData = {
+        datas:[
+          {numContanier:"#noHd1", numData:'7958412178591'},
+          {numContanier:"#noHd2", numData:'98591'},
+          {numContanier:"#noHd3", numData:'7954229'},
+          {numContanier:"#noHd4", numData:'98591'},
+          {numContanier:"#noHd5", numData:'7954841'},
+          {numContanier:"#noHd6", numData:'98591'}
+        ],
+        speed:"fast", // global speed, highest priority 。 slow? | fast? | normal?
+        type:"animation"
+    }
+    FoxRollNumber(configData);
+    
+  </script>
+</body>
+</html>
